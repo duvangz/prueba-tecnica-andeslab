@@ -1,0 +1,21 @@
+body {
+  margin: 0px;
+}
+
+header {
+  border-bottom 
+  : 1px solid black;
+
+  & ul {
+    display: flex;
+    gap: 1rem;
+  }
+
+  & li {
+    list-style-type: none;
+  }
+}
+
+h1 {
+  text-align: center;
+}
