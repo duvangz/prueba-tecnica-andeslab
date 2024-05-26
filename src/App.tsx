@@ -20,6 +20,8 @@ function App() {
         </nav>
       </header>
 
+      <br />
+
       <Outlet />
     </>
   )

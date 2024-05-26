@@ -6,6 +6,7 @@ export default function App() {
     <>
       <h1>Cantidad de títulos por usuario</h1>
       <AlbumsByUser />
+      <br/>
       <h1>Tareas completadas vs no completadas</h1>
       <Todos />
     </>

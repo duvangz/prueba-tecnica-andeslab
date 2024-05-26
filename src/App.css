@@ -1,18 +1,30 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
 body {
-  margin: 0px;
+  font-family: 'Courier New', Courier, monospace;
 }
 
 header {
-  border-bottom 
-  : 1px solid black;
-
-  & ul {
-    display: flex;
-    gap: 1rem;
-  }
-
-  & li {
-    list-style-type: none;
+  height: 40px;
+  background-color: rgb(39, 42, 214);
+  & nav {
+    height: 100%;
+    & ul {
+      height: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 1rem;
+      & li {
+        list-style-type: none;
+        & a {
+          color: white;
+        }
+      }
+    }
   }
 }
 
