@@ -28,6 +28,7 @@ export default function AlbumsByUser() {
   useEffect(() => {
     getAlbums()
       .then((data) => setAlbums(data))
+      .catch(error => console.error(error))
   }, [])
 
   const titlesByUser: { userId: number, count: number }[] = useMemo(() => {

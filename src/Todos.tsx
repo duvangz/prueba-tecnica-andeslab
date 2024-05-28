@@ -26,6 +26,7 @@ export default function Todos () {
     useEffect(() => {
         getTodos()
             .then((data) => setTodos(data))
+            .catch(error => console.error(error))
     }, [])
 
     const todosByStatus: { status: keyof typeof TODO_STATUS, count: number }[] = useMemo(() => {
